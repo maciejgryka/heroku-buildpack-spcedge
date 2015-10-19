@@ -63,6 +63,8 @@ puts-step "BUILD_DIR = $BUILD_DIR"
 puts-step "CACHE_DIR = $CACHE_DIR"
 puts-step "ENV_DIR = $ENV_DIR"
 
+puts-step `ls -lash /tmp/`
+
 # Directory Hacks for path consistiency.
 APP_DIR='/app'
 TMP_APP_DIR=$CACHE_DIR/tmp_app_dir
